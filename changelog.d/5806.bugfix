@@ -1,0 +1,1 @@
+Fix get_user_deactivated_status being inaccessible to synapse/handlers/auth.py. This was causing a 500 error every time a deactivated user attempted to login.
